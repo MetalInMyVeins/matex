@@ -1,0 +1,20 @@
+Diagnostics:
+  Suppress:
+    - unused-includes
+
+header-insertion: never
+
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -Wall
+    - -Wextra
+    - -pedantic
+    - -Wpedantic
+    - -Werror
+    - -Wshadow
+    - -Wconversion
+    - -Wsign-conversion
+    - -Wformat=2
+    - -Wundef
+

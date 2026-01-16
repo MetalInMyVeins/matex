@@ -5,3 +5,7 @@ void Matex::compile(const std::string& expr)
   mExpr = expr;
 }
 
+void Matex::scanTokens()
+{
+}
+

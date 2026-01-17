@@ -6,7 +6,7 @@ header-insertion: never
 
 CompileFlags:
   Add:
-    - -std=c++20
+    - -std=c++23
     - -Wall
     - -Wextra
     - -pedantic

@@ -3,11 +3,7 @@
 #include <string>
 #include <vector>
 
-enum class Token
-{
-  NUMBER,
-  PLUS,
-};
+#include "matex/Token.hxx"
 
 class Matex
 {
@@ -16,10 +12,7 @@ public:
   void compile(const std::string& expr);
 
 private:
-  void scanTokens();
-
-private:
   std::string mExpr{};
-  std::vector<Token> mTokens{};
+  Token* mTokenStream{nullptr};
 };
 
